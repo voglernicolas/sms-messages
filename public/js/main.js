@@ -11,7 +11,6 @@ socket.on('smsStatus', function(data){
 })
 
 function send() {
-  console.log('send');
   const number = numberInput.value.replace(/\D/g, '');
   const text = textInput.value;
 
