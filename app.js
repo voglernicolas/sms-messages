@@ -13,7 +13,7 @@ const nexmo = new Nexmo({
 // Init app
 const app = express();
 
-// Template engine setup
+// Template engine
 app.set('view engine', 'html');
 app.engine('html', ejs.renderFile);
 
